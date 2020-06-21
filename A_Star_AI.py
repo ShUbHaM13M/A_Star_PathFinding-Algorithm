@@ -117,7 +117,7 @@ Label(window, text = "Left click to draw walls").grid(row=1, pady=3)
 Label(window, text = "Right click to remove walls").grid(row=2, pady=3)
 Label(window, text = "L_Shift + LeftMouse click to change the start position").grid(row=3, pady=3)
 Label(window, text = "L_Ctrl + LeftMouse click to change the end position").grid(row=4, pady=3)
-Label(window, text = "After placing the nodes press Space to continue")
+Label(window, text = "After placing the nodes press Space to continue").grid(row=5, pady=3)
 
 Button(window, text = "Continue ?", command = onContinueBtnClick).grid(row=6, pady=2)
 
